@@ -209,12 +209,32 @@
         </li>
       
         
+        <li class="menu-item menu-item-categories">
+          <a href="/categories/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
+            
+            Categories
+          </a>
+        </li>
+      
+        
         <li class="menu-item menu-item-archives">
           <a href="/archives/" rel="section">
             
               <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
             
             Archives
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-sitemap">
+          <a href="/sitemap.xml" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-sitemap"></i> <br />
+            
+            Sitemap
           </a>
         </li>
       
@@ -270,7 +290,7 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2018/02/11/1/" itemprop="url">Common Solutions——build your own blog with Github&Hexo for Mac users</a></h1>
+                <a class="post-title-link" href="/2018/02/11/1/" itemprop="url">Untitled</a></h1>
         
 
         <div class="post-meta">
@@ -282,7 +302,7 @@
               
                 <span class="post-meta-item-text">Posted on</span>
               
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2018-02-11T01:02:41+08:00">
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2018-02-11T03:27:22+08:00">
                 2018-02-11
               </time>
             
@@ -322,7 +342,33 @@
       
         
           
-            
+            <h1 id="Blog-with-Github-amp-Hexo：Common-solutions-for-Mac-users"><a href="#Blog-with-Github-amp-Hexo：Common-solutions-for-Mac-users" class="headerlink" title="Blog with Github &amp; Hexo：Common solutions for Mac users"></a>Blog with Github &amp; Hexo：Common solutions for Mac users</h1><p><em>Last date updated: 20180211</em></p>
+<blockquote>
+<p>A Definition:<br>This post is defined as a self-study manual and always in the process.</p>
+</blockquote>
+<h3 id="1-Get-A-Domain-Name"><a href="#1-Get-A-Domain-Name" class="headerlink" title="1 Get A Domain Name"></a>1 Get A Domain Name</h3><p>What I use: <a href="https://www.niaoyun.com/" target="_blank" rel="noopener">https://www.niaoyun.com/</a><br>Other choices: <a href="https://www.alibabacloud.com/" target="_blank" rel="noopener">https://www.alibabacloud.com/</a><br>If you’ve got one please skip ^o^</p>
+<h3 id="2-Github-Setup"><a href="#2-Github-Setup" class="headerlink" title="2 Github Setup"></a>2 Github Setup</h3><h4 id="2-1-Register-a-Github-account-anyway-here"><a href="#2-1-Register-a-Github-account-anyway-here" class="headerlink" title="2.1 Register a Github account anyway here"></a>2.1 Register a Github account anyway <a href="https://github.com/" target="_blank" rel="noopener">here</a></h4><h4 id="2-2-Create-a-new-repository"><a href="#2-2-Create-a-new-repository" class="headerlink" title="2.2 Create a new repository"></a>2.2 Create a new repository</h4><blockquote>
+<ul>
+<li>Decide your <strong>Owner / Repository name</strong><br>as <em>yourGithubName</em> / <em>yourGithubName</em>.github.io<br>Ex: <em>mebestcoder</em> / <em>mebestcoder</em>.github.io</li>
+<li>just <strong>Public</strong></li>
+<li>just add a <strong>README</strong> friendly</li>
+</ul>
+</blockquote>
+<h3 id="3-Environment"><a href="#3-Environment" class="headerlink" title="3 Environment"></a>3 Environment</h3><p>Open <strong>Terminal</strong> in your Mac and <strong>keep it on</strong></p>
+<h4 id="3-1-Git"><a href="#3-1-Git" class="headerlink" title="3.1 Git"></a>3.1 <em>Git</em></h4><blockquote>
+<ul>
+<li><a href="https://git-scm.com/downloads" target="_blank" rel="noopener">Download</a> for Mac OS X</li>
+<li>Bind your Git to your GitHub account ( change the content inside “” ) <pre><code>git config --global user.name "your Github Name"
+git config --global user.email "your Github Register Email"</code></pre></li>
+<li>Generate a <strong>public SSH Key</strong><br>Check whether you have existed SSH Keys.It will list the files in your .ssh directory, if they exist.<br><pre><code>ls -al ~/.ssh</code></pre>If you don’t have an existing public and private key pair, then generate a new SSH key.<br>( change the content inside “” )<br><pre><code>ssh-keygen -t rsa -C “your Github Register Email”</code></pre>The public key is saved to id_rsa.pub.You can save it to the clipboard by directly running this:<br><pre><code>pbcopy &lt; ~/.ssh/id_rsa.pub</code></pre>Back to your Github homepage and open github/settings/keys, add a new SSH key.<br>Test whether it’s done in Ternimal:<br><pre><code>ssh git@github.com</code></pre>if it says “Hi xxx ( your Github Name )!You’ve successfully authenticated…”,congratulations!</li>
+</ul>
+</blockquote>
+<h4 id="3-2-Node-js-npm"><a href="#3-2-Node-js-npm" class="headerlink" title="3.2 Node.js ; npm"></a>3.2 <em>Node.js ; npm</em></h4><blockquote>
+<ul>
+<li><a href="https://nodejs.org/en/" target="_blank" rel="noopener">Download</a> for Mac OS X ( current version )</li>
+</ul>
+<h4 id="3-3-Hexo"><a href="#3-3-Hexo" class="headerlink" title="3.3 Hexo"></a>3.3 <em>Hexo</em></h4></blockquote>
+
           
         
       
