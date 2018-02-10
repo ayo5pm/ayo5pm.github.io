@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://ayotter.com/"/>
-  <updated>2018-02-10T17:01:37.958Z</updated>
+  <updated>2018-02-10T17:04:50.821Z</updated>
   <id>http://ayotter.com/</id>
   
   <author>
@@ -15,6 +15,20 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Common Solutions——build your own blog with Github&amp;Hexo for Mac users</title>
+    <link href="http://ayotter.com/2018/02/11/1/"/>
+    <id>http://ayotter.com/2018/02/11/1/</id>
+    <published>2018-02-10T17:02:41.000Z</published>
+    <updated>2018-02-10T17:04:50.821Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>Hello World!</title>
