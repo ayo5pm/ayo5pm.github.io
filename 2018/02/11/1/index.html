@@ -81,17 +81,17 @@
 
 
 
-<meta name="description" content="Blog with Github &amp;amp; Hexo：Common solutions for Mac usersLast date updated: 20180211  A Definition:This post is defined as a self-study manual and always in the process.  1 Get A Domain NameWhat I us">
+<meta name="description" content="Blog with Github &amp;amp; Hexo：Common solutions for Mac usersLast date updated: 20180211  A Definition:This post is defined as a self-study manual and always in the process.  Get A Domain NameWhat I use:">
 <meta property="og:type" content="article">
 <meta property="og:title" content="W I L D | P e s c a d o">
 <meta property="og:url" content="http://ayotter.com/2018/02/11/1/index.html">
 <meta property="og:site_name" content="W I L D | P e s c a d o">
-<meta property="og:description" content="Blog with Github &amp;amp; Hexo：Common solutions for Mac usersLast date updated: 20180211  A Definition:This post is defined as a self-study manual and always in the process.  1 Get A Domain NameWhat I us">
+<meta property="og:description" content="Blog with Github &amp;amp; Hexo：Common solutions for Mac usersLast date updated: 20180211  A Definition:This post is defined as a self-study manual and always in the process.  Get A Domain NameWhat I use:">
 <meta property="og:locale" content="en">
-<meta property="og:updated_time" content="2018-02-10T20:45:36.448Z">
+<meta property="og:updated_time" content="2018-02-10T20:47:56.623Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="W I L D | P e s c a d o">
-<meta name="twitter:description" content="Blog with Github &amp;amp; Hexo：Common solutions for Mac usersLast date updated: 20180211  A Definition:This post is defined as a self-study manual and always in the process.  1 Get A Domain NameWhat I us">
+<meta name="twitter:description" content="Blog with Github &amp;amp; Hexo：Common solutions for Mac usersLast date updated: 20180211  A Definition:This post is defined as a self-study manual and always in the process.  Get A Domain NameWhat I use:">
 
 
 
@@ -345,16 +345,16 @@
 <blockquote>
 <p>A Definition:<br>This post is defined as a self-study manual and always in the process.</p>
 </blockquote>
-<h3 id="1-Get-A-Domain-Name"><a href="#1-Get-A-Domain-Name" class="headerlink" title="1 Get A Domain Name"></a>1 Get A Domain Name</h3><p>What I use: <a href="https://www.niaoyun.com/" target="_blank" rel="noopener">https://www.niaoyun.com/</a><br>Other choices: <a href="https://www.alibabacloud.com/" target="_blank" rel="noopener">https://www.alibabacloud.com/</a><br>If you’ve got one please skip ^o^</p>
-<h3 id="2-Github-Setup"><a href="#2-Github-Setup" class="headerlink" title="2 Github Setup"></a>2 Github Setup</h3><h4 id="2-1-Register-a-Github-account-anyway-here"><a href="#2-1-Register-a-Github-account-anyway-here" class="headerlink" title="2.1 Register a Github account anyway here"></a>2.1 Register a Github account anyway <a href="https://github.com/" target="_blank" rel="noopener">here</a></h4><h4 id="2-2-Create-a-new-repository"><a href="#2-2-Create-a-new-repository" class="headerlink" title="2.2 Create a new repository"></a>2.2 Create a new repository</h4><blockquote>
+<h3 id="Get-A-Domain-Name"><a href="#Get-A-Domain-Name" class="headerlink" title="Get A Domain Name"></a>Get A Domain Name</h3><p>What I use: <a href="https://www.niaoyun.com/" target="_blank" rel="noopener">https://www.niaoyun.com/</a><br>Other choices: <a href="https://www.alibabacloud.com/" target="_blank" rel="noopener">https://www.alibabacloud.com/</a><br>If you’ve got one please skip ^o^</p>
+<h3 id="Github-Setup"><a href="#Github-Setup" class="headerlink" title="Github Setup"></a>Github Setup</h3><h4 id="Register-a-Github-account-anyway-here"><a href="#Register-a-Github-account-anyway-here" class="headerlink" title="Register a Github account anyway here"></a>Register a Github account anyway <a href="https://github.com/" target="_blank" rel="noopener">here</a></h4><h4 id="Create-a-new-repository"><a href="#Create-a-new-repository" class="headerlink" title="Create a new repository"></a>Create a new repository</h4><blockquote>
 <ul>
 <li>Decide your <strong>Owner / Repository name</strong><br>as <em>yourGithubName</em> / <em>yourGithubName</em>.github.io<br>Ex: <em>mebestcoder</em> / <em>mebestcoder</em>.github.io</li>
 <li>just <strong>Public</strong></li>
 <li>just add a <strong>README</strong> friendly</li>
 </ul>
 </blockquote>
-<h3 id="3-Environment"><a href="#3-Environment" class="headerlink" title="3 Environment"></a>3 Environment</h3><p>Open <strong>Terminal</strong> in your Mac and <strong>keep it on</strong></p>
-<h4 id="3-1-Git"><a href="#3-1-Git" class="headerlink" title="3.1 Git"></a>3.1 <em>Git</em></h4><blockquote>
+<h3 id="Environment"><a href="#Environment" class="headerlink" title="Environment"></a>Environment</h3><p>Open <strong>Terminal</strong> in your Mac and <strong>keep it on</strong></p>
+<h4 id="Git"><a href="#Git" class="headerlink" title="Git"></a><em>Git</em></h4><blockquote>
 <ul>
 <li><a href="https://git-scm.com/downloads" target="_blank" rel="noopener">Download</a> for Mac OS X</li>
 <li>Bind your Git to your GitHub account ( change the content inside “” ) <pre><code>git config --global user.name "your Github Name"
@@ -362,11 +362,11 @@ git config --global user.email "your Github Register Email"</code></pre></li>
 <li>Generate a <strong>public SSH Key</strong><br>Check whether you have existed SSH Keys.It will list the files in your .ssh directory, if they exist.<br><pre><code>ls -al ~/.ssh</code></pre>If you don’t have an existing public and private key pair, then generate a new SSH key.<br>( change the content inside “” )<br><pre><code>ssh-keygen -t rsa -C “your Github Register Email”</code></pre>The public key is saved to id_rsa.pub.You can save it to the clipboard by directly running this:<br><pre><code>pbcopy &lt; ~/.ssh/id_rsa.pub</code></pre>Back to your Github homepage and open github/settings/keys, add a new SSH key.<br>Test whether it’s done in Ternimal:<br><pre><code>ssh git@github.com</code></pre>if it says “Hi xxx ( your Github Name )!You’ve successfully authenticated…”,congratulations!</li>
 </ul>
 </blockquote>
-<h4 id="3-2-Node-js-npm"><a href="#3-2-Node-js-npm" class="headerlink" title="3.2 Node.js ; npm"></a>3.2 <em>Node.js ; npm</em></h4><blockquote>
+<h4 id="Node-js-npm"><a href="#Node-js-npm" class="headerlink" title="Node.js ; npm"></a><em>Node.js ; npm</em></h4><blockquote>
 <ul>
 <li><a href="https://nodejs.org/en/" target="_blank" rel="noopener">Download</a> for Mac OS X ( current version )</li>
 </ul>
-<h4 id="3-3-Hexo"><a href="#3-3-Hexo" class="headerlink" title="3.3 Hexo"></a>3.3 <em>Hexo</em></h4></blockquote>
+<h4 id="Hexo"><a href="#Hexo" class="headerlink" title="Hexo"></a><em>Hexo</em></h4></blockquote>
 
       
     </div>
@@ -520,7 +520,7 @@ git config --global user.email "your Github Register Email"</code></pre></li>
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Blog-with-Github-amp-Hexo：Common-solutions-for-Mac-users"><span class="nav-number">1.</span> <span class="nav-text">Blog with Github &amp; Hexo：Common solutions for Mac users</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#1-Get-A-Domain-Name"><span class="nav-number">1.0.1.</span> <span class="nav-text">1 Get A Domain Name</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-Github-Setup"><span class="nav-number">1.0.2.</span> <span class="nav-text">2 Github Setup</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#2-1-Register-a-Github-account-anyway-here"><span class="nav-number">1.0.2.1.</span> <span class="nav-text">2.1 Register a Github account anyway here</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2-2-Create-a-new-repository"><span class="nav-number">1.0.2.2.</span> <span class="nav-text">2.2 Create a new repository</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3-Environment"><span class="nav-number">1.0.3.</span> <span class="nav-text">3 Environment</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#3-1-Git"><span class="nav-number">1.0.3.1.</span> <span class="nav-text">3.1 Git</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#3-2-Node-js-npm"><span class="nav-number">1.0.3.2.</span> <span class="nav-text">3.2 Node.js ; npm</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#3-3-Hexo"><span class="nav-number">1.0.3.3.</span> <span class="nav-text">3.3 Hexo</span></a></li></ol></li></ol></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Blog-with-Github-amp-Hexo：Common-solutions-for-Mac-users"><span class="nav-number">1.</span> <span class="nav-text">Blog with Github &amp; Hexo：Common solutions for Mac users</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Get-A-Domain-Name"><span class="nav-number">1.0.1.</span> <span class="nav-text">Get A Domain Name</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Github-Setup"><span class="nav-number">1.0.2.</span> <span class="nav-text">Github Setup</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#Register-a-Github-account-anyway-here"><span class="nav-number">1.0.2.1.</span> <span class="nav-text">Register a Github account anyway here</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Create-a-new-repository"><span class="nav-number">1.0.2.2.</span> <span class="nav-text">Create a new repository</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Environment"><span class="nav-number">1.0.3.</span> <span class="nav-text">Environment</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#Git"><span class="nav-number">1.0.3.1.</span> <span class="nav-text">Git</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Node-js-npm"><span class="nav-number">1.0.3.2.</span> <span class="nav-text">Node.js ; npm</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Hexo"><span class="nav-number">1.0.3.3.</span> <span class="nav-text">Hexo</span></a></li></ol></li></ol></li></ol></li></ol></div>
             
 
           </div>
