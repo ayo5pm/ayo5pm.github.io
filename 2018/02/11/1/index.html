@@ -88,7 +88,7 @@
 <meta property="og:site_name" content="W I L D | P e s c a d o">
 <meta property="og:description" content="Last date updated: 20180211  A Definition:This post is defined as a self-study manual and always in the process.  Get A Domain NameWhat I use: https://www.niaoyun.com/Other choices: https://www.alibab">
 <meta property="og:locale" content="en">
-<meta property="og:updated_time" content="2018-02-12T01:21:17.588Z">
+<meta property="og:updated_time" content="2018-02-14T10:17:31.939Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Blog with Github &amp; Hexo：Common solutions for Mac users">
 <meta name="twitter:description" content="Last date updated: 20180211  A Definition:This post is defined as a self-study manual and always in the process.  Get A Domain NameWhat I use: https://www.niaoyun.com/Other choices: https://www.alibab">
@@ -343,8 +343,8 @@
 <li>just <strong>Public</strong></li>
 <li>just add a <strong>README</strong> friendly</li>
 </ul>
-<hr>
 </blockquote>
+<hr>
 <h2 id="Environment-Setup"><a href="#Environment-Setup" class="headerlink" title="Environment Setup"></a>Environment Setup</h2><p>Open <strong>Terminal</strong> in your Mac and <strong>keep it open</strong></p>
 <h3 id="Homebrew"><a href="#Homebrew" class="headerlink" title="Homebrew"></a><em>Homebrew</em></h3><blockquote>
 <p><a href="https://brew.sh/" target="_blank" rel="noopener">Homebrew</a> help you install some things that you need but Apple doesn’t.Paste those words on Terminal and you’ll get it.</p>
@@ -388,17 +388,17 @@ hexo g</code></pre></li>
 <p><em>localhost:4000</em> or <em><a href="http://127.0.0.1:4000" target="_blank" rel="noopener">http://127.0.0.1:4000</a></em></p>
 </blockquote>
 </li>
-<li><p>There can be a situation that the port <em>:4000</em> has already been taken, maybe you can switch the port as you like.<br>Find the .js file  </p>
-<blockquote>
-<p><em>blog</em>/<em>node_modules</em>/<em>hexo-server</em>/<em>index.js</em></p>
-</blockquote>
+<li><p>There can be a situation that the port <em>:4000</em> has already been taken, maybe you can switch the port as you like.</p>
 </li>
 </ul>
+<blockquote>
+<p>File dir: <em>blog</em>/<em>node_modules</em>/<em>hexo-server</em>/<em>index.js</em></p>
 <pre><code>hexo.config.server = assign({
-  port: 4000,
+  port: 4000,(could be changed to what you want)
   log: false,
   ip: '0.0.0.0',</code></pre>
 
+</blockquote>
 </blockquote>
 <h3 id="Publish"><a href="#Publish" class="headerlink" title="Publish"></a><em>Publish</em></h3><p>&gt;</p>
 
