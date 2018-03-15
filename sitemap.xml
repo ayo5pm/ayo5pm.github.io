@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://ayotter.com/2018/03/05/STUDIO2%20in%20March/</loc>
+    
+    <lastmod>2018-03-15T07:10:01.507Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://ayotter.com/2018/03/13/Linear%20Interpolation%20for%20Audio/</loc>
     
     <lastmod>2018-03-13T06:22:56.675Z</lastmod>
@@ -19,13 +26,6 @@
     <loc>http://ayotter.com/about/index.html</loc>
     
     <lastmod>2018-03-12T15:53:54.903Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://ayotter.com/2018/03/05/GUI%20for%20my%20sound%20library/</loc>
-    
-    <lastmod>2018-03-12T15:39:40.183Z</lastmod>
     
   </url>
   
