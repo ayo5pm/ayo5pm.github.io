@@ -38,11 +38,11 @@
   </entry>
   
   <entry>
-    <title>STUDIO2 in March_directory file</title>
+    <title>STUDIO2 in March_Overall</title>
     <link href="http://ayotter.com/2018/03/05/STUDIO2%20in%20March/"/>
     <id>http://ayotter.com/2018/03/05/STUDIO2 in March/</id>
     <published>2018-03-05T01:47:36.000Z</published>
-    <updated>2018-03-15T07:10:01.507Z</updated>
+    <updated>2018-03-15T07:19:25.091Z</updated>
     
     <content type="html"><![CDATA[<h2 id="Present-Workflow"><a href="#Present-Workflow" class="headerlink" title="Present Workflow"></a>Present Workflow</h2><div class="row"><iframe src="https://drive.google.com/file/d/1kAQVhs4FiPS-PxD22MK2p9evD4sBAAYe/preview" style="width:100%; height:550px"></iframe></div><h2 id="Library-in-process"><a href="#Library-in-process" class="headerlink" title="Library in process"></a>Library in process</h2><p>For much freely manipulating with my upcoming sound library,I’d like to invite a graphic user interface(GUI) to display and analyse those soundtracks.</p><p>The Library I chose to use is <a href="http://www.sojamo.de/libraries/controlP5/" target="_blank" rel="noopener">ControlP5</a>.</p><p>And I grab fundamentals mainly from the official <a href="http://www.sojamo.com/libraries/controlP5/reference/" target="_blank" rel="noopener">javadoc</a></p><h2 id="Functions"><a href="#Functions" class="headerlink" title="Functions"></a>Functions</h2>]]></content>
     
